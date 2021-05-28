@@ -1,0 +1,13 @@
+
+
+
+国家段前台： sysNation
+
+学校端
+专业与职业谱系图前台系统： sysDendrograms(包含createModel建模管理系统的入口)
+专业与职业知识库自动构建管理前台系统：sysAutoBuild
+招聘岗位大数据采集几与动态管理系统 sysJob
+专业与职业谱系图可视化系统：sysEchart
+
+
+后台设置管理系统： sysSettingMgnt

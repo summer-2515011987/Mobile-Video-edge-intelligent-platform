@@ -1,0 +1,256 @@
+.popover_L .postTitle{
+    padding-left:5px;
+    color: #fff;
+    cursor: pointer;
+    height:30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.den-main-container >>>.el-table--border td, .den-main-container >>>.el-table--border th, .den-main-container >>>.el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+    border-right: 0px solid #EBEEF5;
+}
+
+.den-main-container >>>.el-table--border {
+    border-right: 1px solid #095694;
+    border-bottom:1px solid #095694;
+    /*box-shadow: 0 0 0.5vw #237ad4 inset;*/
+    /*background: linear-gradient(#1359df, #1359df) left top, linear-gradient(#1359df, #1359df) left top, linear-gradient(#1359df, #1359df) right top, linear-gradient(#1359df, #1359df) right top, linear-gradient(#1359df, #1359df) left bottom, linear-gradient(#1359df, #1359df) left bottom, linear-gradient(#1359df, #1359df) right bottom, linear-gradient(#1359df, #1359df) right bottom;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 0.1vw 18vw, 0.5vw 0.1vw;*/
+    background: transparent;
+}
+.den-main-container >>>.el-table--border, .den-main-container >>>.el-table--group {
+    border: 0px solid #EBEEF5;
+}
+
+.den-main-container >>>.el-table td, .den-main-container >>>.el-table th.is-leaf {
+    border-right: 1px solid #095694;
+    border-bottom:1px solid #095694;
+    /*box-shadow: 0 0 0.5vw #237ad4 inset;*/
+    /*background: linear-gradient(#1359df, #1359df) left top, linear-gradient(#1359df, #1359df) left top, linear-gradient(#1359df, #1359df) right top, linear-gradient(#1359df, #1359df) right top, linear-gradient(#1359df, #1359df) left bottom, linear-gradient(#1359df, #1359df) left bottom, linear-gradient(#1359df, #1359df) right bottom, linear-gradient(#1359df, #1359df) right bottom;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 0.1vw 18vw, 0.5vw 0.1vw;*/
+    background: transparent;
+}
+.den-main-container >>>.el-table--border::after, .den-main-container >>>.el-table--group::after, .den-main-container >>>.el-table::before {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    z-index: 1;
+}
+/*圆点父容器高度*/
+.Dotdiv{
+    height: 124px;
+    padding:12px 0;
+}
+.Dotdiv:after {
+
+    content:"";
+    display: block;
+    height:0;
+    clear:both;
+}
+.Dotdiv > div{
+    width: 36px;
+    height:25px;
+    float: left;
+    padding:10px 0px;
+}
+.NoneOnecol>div{
+    width: 50px;
+}
+.NoneTwocol>div{
+    width: 65px;
+}
+    /*popover弹出框样式*/
+.popover_L:after {
+    content:"";
+    display: block;
+    height:0;
+    clear:both;
+}
+.popover_R:after {
+    content:"";
+    display: block;
+    height:0;
+    clear:both;
+}
+.popover_L{
+    float: left;
+    width:200px;
+    border-right:1px solid transparent;
+    background-color: #e89300;
+}
+
+.popover_L .title{
+    height:30px;
+    line-height:20px;
+    color: #fff;
+    background-color: #e7680a;
+    border-radius: 2px 0 0 0;
+    padding-left: 5px;
+}
+.popover_L .title span{
+    display: inline-block;
+    height:20px;
+    width: 20px;
+    margin-left:20px;
+    margin-right:2px;
+    border-radius:15px;
+    background-color: #fff;
+    color: #FF9C01;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+.popover_L .postNum{
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    color: #fff;
+    background-color: #e89300;
+    border-radius: 2px 0 0 0;
+    border-bottom:2px solid #a07021;
+    padding-left:5px;
+}
+
+.popover_R{
+    float: left;
+    width:200px;
+    border-left:1px solid transparent;
+    background-color: #837866;
+}
+.popover_R .title{
+    height:30px;
+    line-height:30px;
+    color: #fff;
+    background-color:#775e38;
+    border-radius: 0 2px 0 0;
+    padding-right: 5px;
+    margin-bottom:10px;
+}
+
+.popover_R .title span{
+    margin-left:10px;
+    margin-right:2px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/*echart表格位置*/
+.createdfooter .createdfooter_box{
+    width:100%;
+    height:100%;
+}
+.createdfooter .createdfooter_box_in{
+    float: left;
+    width:66.66%;
+    height:100%;
+}
+.createdfooter .createdfooter_box .createdfooter_box_one{
+    float: left;
+    width:33.333%;
+    height:100%;
+    padding:10px;
+    /*position: relative;*/
+}
+.createdfooter .createdfooter_box .createdfooter_box_one>div{
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*left:10px;*/
+    /*right:10px;*/
+    /*top:10px;*/
+    /*bottom:10px;*/
+}
+.createdfooter .createdfooter_box .createdfooter_box_one_l{
+    float: left;
+    width:100%;
+    height:50%;
+    padding:10px 20px 10px 0;
+}
+.createdfooter .createdfooter_box .createdfooter_box_one_l div{
+    /*left: 0;*/
+    /*right: 20px;*/
+}
+.createdfooter .createdfooter_box .createdfooter_box_one_r{
+    float: left;
+    width:100%;
+    height:50%;
+    padding:10px 0px 10px 20px;
+}
+.createdfooter .createdfooter_box .createdfooter_box_one_r div{
+    /*left: 20px;*/
+    /*right: 0px;*/
+}
+.expandDiv{
+    height:410px;
+}
+.expandDiv_title{
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+.postTitle{
+    padding-left:5px;
+    color: #fff;
+    cursor: pointer;
+    height:30px;
+    line-height: 30px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*第一列的样式*/
+.Dottable.el-table >>>tbody tr .rowName0{
+    background: #670774!important;
+}
+.Dottable.el-table >>>tbody tr .rowName1{
+    background: #670774!important;
+    opacity: 0.8;
+}
+.Dottable.el-table >>>tbody tr .rowName2{
+    background: #670774!important;
+    opacity: 0.7;
+}
+.Dottable.el-table >>>tbody tr .rowName3{
+    background: #670774!important;
+    opacity: 0.6;
+}
+.Dottable.el-table >>>tbody tr .rowName4{
+    background: #670774!important;
+    opacity: 0.5;
+}
+.Dottable.el-table >>>tbody tr .rowName5{
+    background: #670774!important;
+    opacity: 0.4;
+}
+.Dottable.el-table >>>tbody tr td{
+    text-align: center;
+}
+/*清除表格padding*/
+.Dottable >>>td{
+    padding:0!important;
+    color:#fff;
+}
+.Dottable >>>.el-table__body-wrapper::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.Dottable >>>.el-table__body-wrapper::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+    border-radius: 3px;
+}
+.job-unit-title-div{
+    text-align:left;
+    color:white;
+    padding: 10px;
+    font-size: 18px;
+    height: 40px!important;
+}

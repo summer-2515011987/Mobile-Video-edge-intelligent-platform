@@ -1,0 +1,92 @@
+.container-unit{
+    width:100%;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #93A5E0;
+    display: flex;
+    flex-direction: column;
+}
+.unit-title-div{
+    text-align: left;
+    padding: 18px 20px;
+    height: 26px;
+}
+
+.unit-title{
+    width: 221px;
+    height: 20px;
+    font-size: 20px;
+    font-family: SourceHanSansCN-Bold, SourceHanSansCN;
+    font-weight: bold;
+    color: #000A12;
+    line-height: 30px;
+}
+.unit-choose-div{
+    height: 48px;
+    background: #E9EFFC;
+    text-align: left;
+    line-height: 48px;
+    padding-left: 35px;
+}
+.unit-main-div{
+    padding: 20px 30px 0 30px;
+    flex: 1;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.unit-main-div form >>>.el-form-item__label{
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: #111111;
+    line-height: 40px;
+}
+.unit-main-div >>>.el-input__inner {
+    width: 163px;
+    height: 40px;
+    background: #FEFEFE;
+    border-radius: 2px;
+    border: 1px solid #C6C6C6;
+}
+.unit-main-div >>>form{
+    margin-bottom: 20px;
+}
+.unit-choose-div >>>.el-cascader{
+    left: 30px;
+    width: 600px;
+}
+.unit-choose-div >>>.el-cascader .el-input .el-icon-arrow-down {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(180deg, #FFD7A3 0%, #FF7300 100%);
+    box-shadow: 0px 3px 5px 0px #A8A399;
+    border-radius: 2px;
+}
+.unit-choose-div >>>input{
+    height: 25px;
+    font-size: 18px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #111111;
+    line-height: 25px;
+}
+.unit-choose-div >>>.el-input__suffix {
+    left: -630px;
+}
+.unit-choose-div >>>.el-input__icon {
+    line-height: 30px;
+}
+.unit-choose-div >>>.el-input__suffix-inner {
+    color: white;
+}
+.unit-choose-div >>>.el-cascader .el-input .el-input__inner {
+    text-overflow: ellipsis;
+    background: #E9EFFC;
+    border: 0;
+}
+
+
+
+
+ 

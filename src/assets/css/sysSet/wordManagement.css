@@ -1,0 +1,115 @@
+.main_contain{
+    height:100%;
+    border:1px solid #93a5e0;
+    border-radius:4px;
+    background-color: white;
+    position:relative;
+}
+.main_contain .headerd{
+    text-align: left;
+    height:64px;
+    line-height:64px;
+    border-bottom:1px solid #788492;
+    box-shadow: #e9effc 0px -10px 0px -5px inset;
+    font-size:16px;
+    position: relative;
+    padding-left:40px;
+}
+.main_contain .headerd span{
+  transform: rotate(45deg);
+    color: #ce4f15;
+    font-size: 20px;
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+.main_contain .myTable{
+    position: absolute;
+    top: 65px;
+    bottom:0px;
+    width:100%;
+    padding:30px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*专业详情*/
+.main_contain2{
+    height:100%;
+    border:1px solid #93a5e0;
+    border-radius:4px;
+    position:relative;
+}
+.main_contain2 .headerd{
+    text-align: left;
+    height:100px;
+    border-bottom:1px solid #788492;
+    box-sizing: border-box;
+}
+.main_contain2 .headerd p{
+    text-align: left;
+    height:60px;
+    line-height:60px;
+    font-size:16px;
+    position: relative;
+    padding-left:40px;
+}
+.main_contain2 .headerd p span{
+    transform: rotate(45deg);
+    color: #ce4f15;
+    font-size: 20px;
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+.main_contain2 .headerd .nav{
+   height:38px;
+   background: #e9effc;
+    padding: 0 40px;
+    line-height:38px;
+    font-size: 16px;
+}
+.main_contain2 .myTable{
+    position: absolute;
+    top: 100px;
+    bottom:0px;
+    width:100%;
+    padding:30px 30px 0px 30px;
+    overflow-y: auto;
+    text-align: center;
+}
+.lt{
+    float: left;
+}
+.rt{
+    float:right;
+}
+.Smallscrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.Smallscrollbar ::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+    border-radius: 3px;
+}
+
+/*表格文字居中*/
+.textcenterTable >>>thead tr th .cell{
+    text-align: center!important;
+}
+.textcenterTable >>>td{
+    text-align: center;
+}
+
+/*标题行提前*/
+.titleCell >>>.cell{
+    padding-left:30px!important;
+    text-align: left;
+}
+
+>>>.el-tree-node__content {
+    height: 35px;
+}
+>>>.el-form-item__content {
+    text-align: left;
+}

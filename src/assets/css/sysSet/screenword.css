@@ -1,0 +1,270 @@
+
+/*专业详情*/
+.main_contain{
+    height:100%;
+    border:1px solid #93a5e0;
+    border-radius:4px;
+    position:relative;
+}
+.main_contain .headerd{
+    text-align: left;
+    height:100px;
+    border-bottom:1px solid #788492;
+    box-sizing: border-box;
+}
+.main_contain .headerd p{
+    text-align: left;
+    height:60px;
+    line-height:60px;
+    font-size:16px;
+    position: relative;
+    padding-left:40px;
+}
+.main_contain .headerd p span{
+    transform: rotate(45deg);
+    color: #ce4f15;
+    font-size: 20px;
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+.main_contain .headerd .nav{
+    height:38px;
+    background: #e9effc;
+    padding: 0 40px;
+    line-height:42px;
+    font-size: 16px;
+}
+.main_contain .mycontain{
+    position: absolute;
+    top: 100px;
+    bottom:0px;
+    width:100%;
+    padding:30px 30px 0px 30px;
+}
+.contain_a{
+    position: absolute;
+    top: 30px;
+    bottom:50px;
+    left:30px;
+    right:30px;
+    overflow-y: hidden;
+    display: flex;
+}
+.contain_l{
+    flex:1;
+    margin-right:10px;
+    position: relative;
+
+}
+.contain_l .contain_l_header{
+    height:50px;
+    background: #0F4482;
+    padding-left:5px;
+    position:absolute;
+    left:5px;
+    right:0;
+}
+.headder_title{
+    width:25%;
+    height:50px;
+    color: #fff;
+    line-height:50px;
+    font-size: 16px;
+    border-right:1px solid #c1c3cb;
+}
+.headder_box{
+    width:75%;
+    height:50px;
+    display: flex;
+    padding:0 10px;
+}
+.headder_box div{
+    flex: 1;
+    padding:3px 0;
+}
+.containdes{
+   position: absolute;
+    top:55px;
+    bottom:5px;
+    left:5px;
+    right:0;
+    background: #f8faff;
+    box-shadow:0px 0px 3px 3px #ccc;
+    overflow-y:auto;
+    display: flex;
+    padding:10px;
+    }
+.containdes .containdes_item{
+    flex:1;
+    margin-top: 10px;
+    width:100%;
+
+}
+.containdes .containdes_item_box{
+    border:1px solid #c2c5cb;
+    background: #eef3ff;
+    margin-top:10px;
+    display: flex;
+}
+
+.containdes .containdes_item_box .containdes_item_box_word{
+    padding:10px 5px;
+    font-size:16px;
+    line-height:20px;
+    color: #000;
+    flex:1;
+    border-right: 1px solid #cccccc;
+    text-align: left;
+}
+.containdes .containdes_item_box .containdes_item_box_btz{
+    width:80px;
+    text-align:center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.contain_r{
+    flex:1;
+    margin-right:10px;
+    position: relative;
+
+}
+.contain_r .contain_l_header{
+    height:50px;
+    background: #db7000;
+    padding-left:5px;
+    position:absolute;
+    left:5px;
+    right:0;
+    text-align: center;
+    line-height:50px;
+    font-size: 16px;
+    color: #fff;
+}
+.contain_r .containdes{
+    position: absolute;
+    top:55px;
+    bottom:5px;
+    left:5px;
+    right:0;
+    background: #f8faff;
+    box-shadow:0px 0px 3px 3px #ccc;
+    overflow-y:auto;
+    display: flex;
+    padding:10px;
+    padding-top:110px;
+}
+.contain_r .containdes .GDdiv{
+    position:absolute;
+    top:10px;
+    left: 10px;
+    right:10px;
+    height:100px;
+    border:1px solid #c2c5cb;
+    display: flex;
+}
+.containdes .GDdiv .containdes_item_box_word{
+    font-size:16px;
+    line-height:20px;
+    color: #000;
+    flex:1;
+    border-right: 1px solid #cccccc;
+    text-align: left;
+}
+.containdes .GDdiv .containdes_item_box_btz{
+    width:80px;
+    text-align:center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.containdes .containdes_item{
+    flex:1;
+    margin-top: 10px;
+    width:100%;
+
+}
+.containdes .containdes_item_box{
+    border:1px solid #c2c5cb;
+    background: #eef3ff;
+    margin-top:10px;
+    display: flex;
+}
+
+.containdes .containdes_item_box .containdes_item_box_word{
+    padding:10px 5px;
+    font-size:16px;
+    line-height:20px;
+    color: #000;
+    flex:1;
+    border-right: 1px solid #cccccc;
+    text-align: left;
+}
+.containdes .containdes_item_box .containdes_item_box_btz{
+    width:80px;
+    text-align:center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.contain_f{
+    height:50px;
+    position: absolute;
+    bottom:0px;
+    left:40px;
+    right:40px;
+    padding:10px 0;
+}
+.lt{
+    float: left;
+}
+.rt{
+    float:right;
+}
+.Smallscrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.Smallscrollbar ::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+    border-radius: 3px;
+}
+.heighttextarea >>>.el-textarea{
+    height:100%;
+
+}
+.heighttextarea >>>.el-textarea__inner{
+    height:100%;
+    border-radius: 0;
+
+}
+.longSelect >>>.el-select{
+    width:100%!important;
+}
+>>>.el-transfer-panel {
+    width: 40%;
+    height: 100%;
+}
+>>>.el-transfer-panel__item.el-checkbox {
+    text-align: left;
+}
+>>>.el-transfer-panel__list.is-filterable {
+    height: 90%;
+}
+>>>.el-transfer-panel__body {
+    height: 90%;
+}
+>>>.el-transfer-panel__list {
+    height: 100%;
+}

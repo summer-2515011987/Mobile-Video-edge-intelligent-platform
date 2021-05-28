@@ -1,0 +1,291 @@
+
+/*专业详情*/
+.main_contain{
+    height:100%;
+    border:1px solid #93a5e0;
+    border-radius:4px;
+    position:relative;
+}
+.main_contain .headerd{
+    text-align: left;
+    height:100px;
+    border-bottom:1px solid #788492;
+    box-sizing: border-box;
+}
+.main_contain .headerd p{
+    text-align: left;
+    height:60px;
+    line-height:60px;
+    font-size:16px;
+    position: relative;
+    padding-left:40px;
+}
+.main_contain .headerd p span{
+    transform: rotate(45deg);
+    color: #ce4f15;
+    font-size: 20px;
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+.main_contain .headerd .nav{
+    height:38px;
+    background: #e9effc;
+    padding: 0 40px;
+    line-height:42px;
+    font-size: 16px;
+}
+.main_contain .mycontain{
+    position: absolute;
+    top: 100px;
+    bottom:0px;
+    width:100%;
+    padding:40px 40px 0px 40px;
+}
+.contain_a{
+    position: absolute;
+    top: 40px;
+    bottom:50px;
+    left:37px;
+    right:37px;
+    overflow-y: hidden;
+    display: flex;
+}
+
+.contain_a .treeBox{
+   width:200px;
+    position: relative;
+}
+.contain_a .treeBox .search{
+   height:50px;
+    padding:5px 0;
+}
+
+
+.contain_a .treeBox .treeBox_tree{
+    position:absolute;
+    top:50px;
+    bottom:0;
+    width:100%;
+    overflow-y:auto;
+}
+.contain_a .treeBox .treeBox_tree .treeBox_treeLI{
+    height:40px;
+    line-height:40px;
+    font-size: 16px;
+    padding:0 10px;
+}
+.contain_a .treeBox .treeBox_tree .index{
+    background: #d0d8f4;
+}
+
+.contain_l{
+    flex:1;
+    margin-right:10px;
+    position: relative;
+    text-align: center;
+    line-height:50px;
+    font-size: 16px;
+    color: #fff;
+
+}
+.contain_l .contain_l_header{
+    height:50px;
+    background: #0F4482;
+    padding-left:5px;
+    position:absolute;
+    left:5px;
+    right:0;
+}
+
+.contain_l .containdes{
+    position: absolute;
+    top:55px;
+    bottom:5px;
+    left:5px;
+    right:0;
+    background: #f8faff;
+    box-shadow:0px 0px 3px 3px #ccc;
+    overflow-y:auto;
+    /*display: flex;*/
+    padding:10px;
+    /*justify-content: space-around;*/
+    /*align-content:space-between ;*/
+}
+.contain_l .containdes .wordDiv{
+    padding:8px;
+    float: left;
+}
+.contain_l .containdes .wordSpan{
+    padding:5px;
+    color: #000A12;
+    border:1px solid #c6c5c5;
+    background: #f5f3f3;
+    border-radius:2px;
+}
+.contain_l .containdes .wordSpanhover:hover{
+    border:1px solid #ffb877;
+    background: #fffaee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contain_r{
+    flex:2;
+    margin-right:10px;
+    position: relative;
+
+}
+.contain_r .contain_l_header{
+    height:50px;
+    background: #db7000;
+    padding-left:5px;
+    position:absolute;
+    left:5px;
+    right:0;
+    text-align: center;
+    line-height:50px;
+    font-size: 16px;
+    color: #fff;
+}
+.contain_r .containdes{
+    position: absolute;
+    top:55px;
+    bottom:5px;
+    left:5px;
+    right:0;
+    background: #f8faff;
+    box-shadow:0px 0px 3px 3px #ccc;
+    overflow-y:auto;
+    display: flex;
+}
+.contain_r .containdes .alternative{
+    flex: 1;
+    position: relative;
+}
+.contain_r .containdes .alternative .alternative_header{
+    height:48px;
+    border-bottom:2px solid #999da8;
+    background:#eff1f9;
+    text-align: center;
+    line-height: 48px;
+    font-size:16px;
+}
+.contain_r .containdes .alternative .alternative_box{
+    position: absolute;
+    top:48px;
+    bottom:0;
+    width: 100%;
+    padding-top:10px;
+    overflow-y: auto;
+}
+.contain_r .containdes .alternative .alternative_box .alternative_box_item{
+    height:40px;
+    width:100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+.contain_r .containdes .alternative .alternative_box .alternative_box_itemN{
+    position: absolute;
+    top: 5px;
+    right:5px;
+    left:5px;
+    bottom:5px;
+    border:1px solid #cccccc;
+    font-size:16px;
+}
+.contain_r .containdes .alternative .alternative_box .alternative_box_itemN .alternative_box_iteml{
+    float: left;
+    width:65%;
+    height:30px;
+    line-height:30px;
+    text-align: left;
+    padding-left:10px;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.contain_r .containdes .alternative .alternative_box .alternative_box_itemN .alternative_box_itemr{
+    float: left;
+    width:35%;
+    height:30px;
+    line-height:30px;
+    text-align: left;
+    padding-left:10px;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #076faf;
+}
+.contain_r .containdes .check{
+    flex: 1;
+    position: relative;
+}
+
+
+.contain_r .containdes .check .alternative_header{
+    height:48px;
+    border-bottom:2px solid #999da8;
+    background:#eff1f9;
+    text-align: center;
+    line-height: 48px;
+    font-size:16px;
+}
+.contain_r .containdes .check .alternative_box{
+    position: absolute;
+    top:48px;
+    bottom:0;
+    width: 100%;
+    padding-top:10px;
+    overflow-y: auto;
+}
+.contain_r .containdes .check .alternative_box .alternative_box_table{
+    position: absolute;
+    top:0px;
+    bottom:50px;
+    right: 10px;
+    left:10px ;
+    padding-top:10px;
+    overflow-y: auto;
+    font-size:16px;
+}
+.contain_r .containdes .check .alternative_box .alternative_box_footer{
+    position: absolute;
+    height:50px;
+    bottom:0px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.contain_f{
+    height:50px;
+    position: absolute;
+    bottom:0px;
+    left:40px;
+    right:40px;
+    padding:10px 0;
+}
+.lt{
+    float: left;
+}
+.rt{
+    float:right;
+}
+.Smallscrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.Smallscrollbar ::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+    border-radius: 3px;
+}

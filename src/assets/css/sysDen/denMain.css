@@ -1,0 +1,159 @@
+.den-wrap{
+    background-image: url("./../../../assets/images/sysJob/jobMain.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    -moz-background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+.den-wrap .den-main-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.den-wrap .el-table__body-wrapper {
+    height: inherit;
+}
+.den-wrap table{
+    height: inherit;
+}
+.den-wrap >>>.el-table__body, .el-table__footer, .el-table__header {
+    table-layout: fixed;
+    border-collapse: separate;
+    height: inherit;
+}
+.den-wrap >>>.el-table tr .idotIcon
+{
+    display: block;
+    height: 0px;
+    width: 0px;
+    color: #FFF001;
+    border-radius: 8px;
+}
+.den-wrap >>>.el-table tr:nth-last-child(7),  tr:nth-last-child(7):hover
+{
+    background-color:rgba(0,204,240,0.7);
+}
+.den-wrap >>>.el-table--enable-row-hover .el-table__body tr:hover>td {
+    background-color: transparent;
+}
+.den-wrap >>>.el-table--enable-row-hover .el-table__body tr:nth-last-child(7)>td:hover {
+    background-color:rgba(0,204,240,1);
+}
+.den-wrap >>>.el-table tr:nth-last-child(6),  tr:nth-last-child(6):hover
+{
+    background-color:rgba(0,204,240,0.6);
+}
+.den-wrap >>>.el-table--enable-row-hover .el-table__body tr:hover>td {
+    background-color: transparent;
+}
+.den-wrap >>>.el-table--enable-row-hover .el-table__body tr:nth-last-child(6)>td:hover {
+    background-color:rgba(0,204,240,0.9);
+}
+.den-wrap  >>>tr:nth-last-child(6) .cell .idotIcon
+{
+    border: 8px solid #FFF001;
+}
+.den-wrap >>>.el-table tr:nth-last-child(5)
+{
+    background-color:rgba(0,204,240,0.5);
+}
+.den-wrap >>>.el-table tr:nth-last-child(5) .idotIcon
+{
+    border: 8px solid #FFC601;
+}
+.den-wrap >>>.el-table--enable-row-hover .el-table__body tr:nth-last-child(5)>td:hover {
+    background-color:rgba(0,204,240,0.9);
+}
+.den-wrap >>>.el-table tr:nth-last-child(4)
+{
+    background-color:rgba(0,204,240,0.4);
+}
+.den-wrap >>>.el-table tr:nth-last-child(4) .idotIcon
+{
+    border: 8px solid #FF9C01;
+}
+.den-wrap >>>.el-table--enable-row-hover .el-table__body tr:nth-last-child(4)>td:hover {
+    background-color:rgba(0,204,240,0.7);
+}
+.den-wrap >>>.el-table tr:nth-last-child(3)
+{
+    background-color:rgba(0,204,240,0.3);
+}
+.den-wrap >>>.el-table tr:nth-last-child(3) .idotIcon
+{
+    border: 8px solid #FF7901;
+}
+.den-wrap >>>.el-table--enable-row-hover .el-table__body tr:nth-last-child(3)>td:hover {
+    background-color:rgba(0,204,240,0.6);
+}
+.den-wrap >>>.el-table tr:nth-last-child(2)
+{
+    background-color:rgba(0,204,240,0.2);
+}
+.den-wrap >>>.el-table tr:nth-last-child(2) .idotIcon
+{
+    border: 8px solid #FF7000;
+}
+.den-wrap >>>.el-table--enable-row-hover .el-table__body tr:nth-last-child(2)>td:hover {
+    background-color:rgba(0,204,240,0.5);
+}
+
+
+.den-wrap >>>.el-table tr:nth-last-child(1)
+{
+    background-color:transparent;
+}
+.den-wrap >>>.el-table tr:nth-last-child(1) .idotIcon
+{
+    border: 8px solid #FF3000;
+}
+.den-wrap >>>.el-table--enable-row-hover .el-table__body tr:nth-last-child(1)>td:hover {
+    background-color:transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.den-wrap >>>.el-table tr:nth-last-child(7)*/
+/*{*/
+/*    background-color:rgba(0,204,240,0.05);*/
+/*}*/
+/*.den-wrap >>>.el-table tr:nth-last-child(7) .idotIcon*/
+/*{*/
+/*    border: 8px solid #F70000;*/
+/*}*/
+/*.den-wrap >>>.el-table--enable-row-hover .el-table__body tr:nth-last-child(7)>td:hover {*/
+/*    background-color:rgba(0,204,240,0.35);*/
+/*}*/
+/*.den-wrap >>>.el-table__body-wrapper {*/
+/*    height: 100%;*/
+/*}*/
+
+.header-buttonl{
+    position:absolute;
+    left:454px;
+    top: 22px;
+    height:32px;
+    line-height:32px;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.32);
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.32);
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 40px;
+    padding:0;
+    width: 120px;
+    font-size: 15px;
+    color:#05a0c4;
+    cursor: pointer;
+}
+

@@ -1,0 +1,215 @@
+
+
+.el-main{
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+}
+.el-aside{
+    width:300px;
+    height: 100%;
+    padding-top:10px;
+    padding-bottom:30px;
+    display: flex;
+    flex-direction:column;
+}
+.el-aside .Mapbox{
+    width:270px;
+}
+.el-aside .MapboxItem{
+    display:flex;
+    border-bottom:1px solid transparent;
+    height:20px;
+}
+.el-aside .MapboxItem span{
+    flex:1;
+    margin:1px;
+    background: #102451;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.el-aside .MapboxItem .deepcolor{
+    background: #015da5;
+}
+.el-aside .MapboxItem .checkColor{
+    background: transparent;
+}
+.el-aside .MapboxItem .checkColor{
+    background: #ff6703;
+    border:1px solid #fff;
+}
+.el-aside .jobdescription{
+    margin-top:10px;
+}
+.el-aside .jobdescription .jobdescription_title{
+    margin-bottom:10px;
+    height:20px;
+    font-size:16px;
+    color: #fff;
+    text-align: left;
+
+}
+.el-aside .jobdescription .jobdescription_title .jobdescription_title_s1{
+    display: inline-block;
+   width:80%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+.el-aside .jobdescription .jobdescription_title .jobdescription_title_s2{
+    float: right;
+
+}
+
+.el-aside .jobdescription .jobdescription_title .jobdescription_title_s3{
+    display:inline-block;
+    height:20px;
+    width:20px;
+    border-radius: 10px;
+    font-size:18px;
+    line-height: 20px;
+    float: none;
+    background: #048ae4;
+    text-align: center;
+    margin-right:4px;
+
+}
+.el-aside .jobdescription .jobdescription_req{
+    padding-left:20px;
+    text-align:left;
+    color: #fff;
+    height:18px;
+}
+.el-aside .jobdescription_nav{
+    margin-top:20px;
+    flex:1;
+    background: #054b98;
+    overflow-y: auto;
+    border-radius:5px 0 0 5px;
+    color: #fff;
+    padding-left:10px;
+    padding-top:10px;
+}
+.el-aside .jobdescription_nav .p1{
+    height:20px;
+    text-align: left;
+    font-size:16px;
+    margin-bottom:10px;
+
+}
+.el-aside .jobdescription_nav .nav{
+    height:40px;
+    line-height:40px;
+    text-align: left;
+    font-size:16px;
+    padding-left: 20px;
+    margin:0 0 10px 10px;
+    cursor: pointer;
+
+}
+.el-aside .jobdescription_nav .nav .nav1{
+    display: inline-block;
+    width:80%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.el-aside .jobdescription_nav .nav .nav2{
+   float: right;
+    margin-right:10px;
+}
+.el-aside .jobdescription_nav .navcheck{
+    box-shadow:-1px 0px 2px 2px  #f2f5f8;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #047dc7,#031e53);
+
+}
+.el-container{
+    height:100%;
+    padding-top:10px;
+    padding-bottom:30px;
+    position: relative;
+}
+.el-container .container_title{
+    height:30px;
+    line-height:30px;
+    color: #fff;
+    font-size:18px;
+    font-weight:500;
+    padding-left:20px;
+    width:100%;
+    text-align:left;
+}
+.el-container .container_title span{
+    float: right;
+    font-size:30px;
+}
+.el-container .textDiv{
+    position: absolute;
+    top:40px;
+    left:0;
+    right:30px;
+    bottom:30px;
+    padding:0 20px 20px;
+    overflow-y: auto;
+}
+.el-container .textDiv  .desBox_header_one{
+    margin-top: 20px;
+    margin-bottom:10px;
+    text-align: left;
+}
+.el-container .textDiv .desBox_header_one .bigType{
+    display: inline-block;
+    height:30px;
+    line-height:30px;
+    padding: 0 28px 0 10px;
+    color: #fff;
+    font-size:20px;
+    background:linear-gradient(to right,#1915a1,#0489e3);
+    border-radius:4px;
+}
+.el-container .textDiv .desBox .desBox_header{
+    margin-top: 20px;
+    margin-bottom:10px;
+    text-align: left;
+}
+.el-container .textDiv .desBox .desBox_header{
+    height:30px;
+    padding: 0 28px 0 0px;
+    color: #fff;
+    font-size:20px;
+    text-align: left;
+}
+.el-container .textDiv .desBox .desBox_header .borderSpan{
+    display: inline-block;
+    height:24px;
+    width:8px;
+    margin:3px 10px 0 0 ;
+    background:linear-gradient(to right,#1a0b93,#038ee5);
+    border-radius:2px;
+    float: left;
+}
+.el-container .textDiv .desBox .desBox_header .titleSpan{
+    display: inline-block;
+    height:30px;
+    line-height:30px;
+    float: left;
+}
+.el-container .textDiv .desBox .desBox_body{
+    text-align: left;
+    line-height:30px;
+    color: #fff;
+    font-size:16px;
+    padding:10px;
+    padding-left:40px;
+}
+/*scroll樣式*/
+.el-container .textDiv::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.el-container .textDiv::-webkit-scrollbar-thumb {
+    background-color: #0876d8;
+    border-radius: 3px;
+}

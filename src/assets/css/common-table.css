@@ -1,0 +1,283 @@
+/* start 修改table样式 */
+.table-page {
+    border:1px solid #e0e0e0;
+}
+
+.table-page .el-table th>.cell {
+    text-align: center;
+}
+
+.table-page .el-table .cell {
+    text-align: center;
+}
+/* end  修改table样式*/
+
+/* start 表格操作按钮 */
+.option-btn {
+    padding: 15px;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.option-btn .el-icon-circle-plus-outline {
+    color: #3484a7;
+}
+
+.option-btn i:nth-child(2) {
+    margin: 0 30px;
+}
+
+.option-btn i:nth-child(3) {
+    margin-right: 30px;
+}
+
+.option-btn i:nth-child(1),
+.option-btn span {
+    color: #3484a7;
+    cursor: pointer;
+}
+
+.option-btn .el-icon-delete {
+    color: #e0584f;
+}
+
+.table-page .el-icon-document,
+.table-page .el-icon-edit-outline,
+.table-page .el-icon-video-play,
+.table-page .el-icon-video-pause,
+.table-page .el-icon-data-analysis {
+    color: #0099d9;
+    font-size: 18px;
+}
+/* end 表格操作按钮 */
+
+/* start 分页样式 */
+.table-page .el-pagination {
+    float: right;
+    margin-top: 10px;
+}
+
+.table-page .el-pagination.is-background, 
+.table-page .el-pagination.is-background .el-pager li {
+    border-radius: 50%;
+}
+
+.table-page .el-pagination.is-background .btn-next, 
+.table-page .el-pagination.is-background .btn-prev, 
+.table-page .el-pagination.is-background .el-pager li {
+    background: none;
+}
+
+.table-page .el-pagination.is-background .el-pager li:not(.disabled).active {
+    background: #70c1b3;
+    color: white;
+}
+
+.table-page .el-pagination.is-background .el-pager li:not(.disabled).active:hover {
+    color: white!important;
+}
+
+.table-page .el-pager li:not(.disabled):hover {
+    color: #70c1b3!important;
+}
+
+.table-page .el-checkbox__input.is-checked .el-checkbox__inner, 
+.table-page .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background: #70c1b3;
+    border-color:#70c1b3
+}
+/* end 分页样式 */
+
+/* start dialog样式 */
+.dialog-box .el-dialog__header,
+.dialog-upload .el-dialog__header {
+    height: 40px;
+    background: #f9f9f9;
+    padding: 0 0 0 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.dialog-box .el-dialog__headerbtn,
+.dialog-upload .el-dialog__headerbtn {
+    top: 10px;
+}
+
+.dialog-box .el-dialog__body {
+    padding: 20px 140px;
+}
+
+.dialog-box .el-dialog__footer {
+    text-align: center;
+}
+
+.dialog-box .el-form-item__content {
+    text-align: left;
+}
+.hideUpload>div {
+    display: none;
+}
+
+.dialog-box .el-select {
+    width: 100%!important;
+}
+
+.el-scrollbar__view.el-select-dropdown__list>li {
+    width: 100%;
+}
+
+.el-select-dropdown {
+    width: 120px!important;
+}
+
+.dialog-footer {
+    margin-bottom: 5px;
+}
+
+.el-input.is-active .el-input__inner, .el-input__inner:focus,
+.el-select .el-input.is-focus .el-input__inner,
+.el-select .el-input__inner:focus {
+    border-color: #189f92;
+}
+
+/* uopload  dialog */
+.dialog-upload .el-checkbox-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.dialog-upload .el-dialog__body {
+    padding: 0 0px 20px 0;
+    font-size: 14px;
+}
+
+.dialog-upload .el-form-item {
+    margin-bottom: 0;
+}
+.dialog-upload-content>div {
+    float: left;
+    height: 400px;
+}
+
+.dialog-upload-content>div:nth-child(1) {
+    width: 20%;
+    background: #f9f9f9;
+}
+
+.dialog-upload-content>div:nth-child(2) {
+    width: calc(80% - 20px);
+    background: white;
+    padding: 10px;
+    height: 380px;
+}
+
+.picture-box {
+    height: 300px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+.picture-box img,
+.picture-box video {
+    height: 100%;
+    width: 100%
+}
+
+.checkAll-delete {
+    text-align: left;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.checkAll-delete .el-icon-delete:before {
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 5px;
+    color: #db3d33;
+}
+
+.checkAll-delete .el-icon-delete {
+    color: #db3d33;
+}
+
+.upload-btn {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.upload-btn .el-upload-list__item:first-child {
+    margin-top: 0;
+}
+
+.upload-btn .el-upload-list__item-status-label {
+    top: 4px
+}
+
+.upload-btn .el-upload-list__item .el-icon-close {
+    top: 10px;
+}
+
+.dialog-box .el-checkbox-group {
+    text-align: center;
+}
+
+.el-message-box__close.el-icon-close:hover {
+    color: #189f92;
+}
+/* end dialog样式 */
+
+/* start button 颜色 */
+.el-button.el-button--primary {
+    background: #189f92;
+    border-color: #189f92;
+}
+
+.el-button:hover {
+    color: white;
+    border-color: #189f92;
+    background-color: #189f92;
+    opacity: .6;
+}
+/* end button 颜色*/
+
+
+
+.el-table th {
+    height: 50px;
+    background: linear-gradient(180deg, #6A728F 0%, #1F263E 100%);
+    border: 1px solid rgba(248, 248, 248, 0.7);
+}
+.el-table th>.cell{
+    height: 21px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #FFFFFF;
+    line-height: 21px;
+    text-align:center;
+    font-weight: 100;
+}
+.el-table th, .el-table tr {
+    background-color: #FFF;
+    height: 40px;
+    border: 1px solid #DFE5F9;
+}
+.el-table td {
+    padding: 0;
+    text-align:center;
+}
+
+.el-table tr>.cell{
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: #111111;
+    line-height: 19px;
+    height:19px;
+}
+
+
+
+
